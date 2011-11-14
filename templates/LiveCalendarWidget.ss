@@ -1,4 +1,4 @@
-<% require javascript(event_calendar/javascript/jquery-1.2.6.min.js) %>
+<% require javascript(sapphire/thirdparty/jquery/jquery-packed.js) %>
 <% require javascript(event_calendar/javascript/live_calendar_widget.js) %>
 <% require css(event_calendar/css/live_calendar_widget.css) %>
 <% if Ajax %><% else %><div id="live-calendar-widget"><% end_if %>
